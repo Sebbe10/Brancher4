@@ -50,9 +50,12 @@ let myul = {
 let myul2 = new myUL();
 myul2.interest = "Tennis";
 
+let myul3 = new myUL();
+myul3.interest = "Ski";
+
 let names = 0;
 
-let myuls = ["Running", "Tennis"];
+let myuls = ["Running", "Tennis", "Ski"];
 
 let ulTag = document.getElementById("myUL");
 
