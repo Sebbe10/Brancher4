@@ -1,0 +1,53 @@
+div {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(139, 102, 102);
+  height: 200px;
+}
+
+ul {
+  display: flex;
+  position: relative;
+  left: 30px;
+  gap: 40px;
+  justify-content: start;
+}
+
+li {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  list-style: none;
+  font-size: 20px;
+  gap: 50px;
+  justify-content: center;
+  color: black;
+  border-bottom: 10px solid white;
+}
+
+span.close {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 90px;
+  background-color: red;
+  box-shadow: 0 1rem 1rem black;
+  width: 50px;
+  height: 50px;
+  bottom: 25px;
+  border-radius: 50%;
+  margin: auto;
+  color: white;
+  cursor: pointer;
+}
+
+span.close:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: white;
+}
