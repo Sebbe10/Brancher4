@@ -58,7 +58,7 @@ myul4.interest = "Ski";
 
 let names = 0;
 
-let myuls = ["Running", "Tennis", "Fotball", "Ski"];
+let myuls = ["Running"];
 
 let ulTag = document.getElementById("myUL");
 
