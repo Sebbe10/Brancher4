@@ -53,12 +53,9 @@ myul2.interest = "Tennis";
 let myul3 = new myUL();
 myul3.interest = "Fotball";
 
-let myul4 = new myUL();
-myul4.interest = "Ski";
-
 let names = 0;
 
-let myuls = ["Running", "Tennis", "Fotball", "Ski"];
+let myuls = ["Running", "Tennis", "Fotball"];
 
 let ulTag = document.getElementById("myUL");
 
